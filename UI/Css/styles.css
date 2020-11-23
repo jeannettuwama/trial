@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+.content{
+    overflow-x: hidden;
+}
+.row1{
+    
+    margin-left: 11.7293233082707%;
+    margin-right: 10.1503759398496%;
+    height: 6.2406015037594%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 1.875rem 0;
+}
+.row1 .logo{
+    margin-top: 1.875rem;
+}
+.row1 .logo p{
+    color: #2C2640;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+.row1 .navigationLinks{
+    margin-left: 38.4210526315789%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.875rem;
+}
+
+.row1 .viewPlans .hamburger{
+    display: none;
+    flex-direction: column;
+}
+.row1 .viewPlans .hamburger .line{
+    background: #2C2640;
+    height: 5px;
+    width: 100%;
+    margin-top: 2px;
+}
+
+
+
+
+.row1 .navigationLinks p{
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+
+}
+.row1 .navigationLinks p:nth-child(2){
+    margin-left: 1rem;
+
+}
+.row1 .navigationLinks p:nth-child(3){
+    margin-left: 1.875rem;
+    
+}
+.row1 .viewPlans{
+
+    margin-top: 1.125rem;
+    margin-left: 1.875rem;
+    border: .2rem #2C2640 solid;
+    text-align: center;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-top: 0.7999rem;
+    padding-bottom: 0.625rem;
+    
+}
+.row1 .viewPlans p{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    margin: 0;
+    padding:0;
+    
+    /**/
+}
+.row2{
+    background-color: #2C2640;
+    padding-left: 11.7293233082707%;
+    padding-right: 10.1503759398496%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.row2 .line{
+    background-color: #A29EA9;
+    height: 2px;
+    width: 10.5263157894737%;
+    margin-top: 6.99248120300752%;
+}
+.row2 h1{
+    font-size: 4.5rem;
+    color: #fff;
+    margin-top: 5.03759398496241%;
+}
+
+.row2 .con{
+    width: 37.593984962406%;
+    color: #A29EA9;
+    margin-top: 1.8796992481203%;
+}
+
+.row2 .viewPlansButton{
+    margin-top: 2.25563909774436%;
+    margin-bottom: 6.76691729323308%;
+   width: 10.3007518796992%;
+    border: .2rem #fff solid;
+    text-align: center;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-top: 0.7999rem;
+    padding-bottom: 0.625rem;
+    cursor: pointer;
+  
+    
+}
+.row1 .viewPlans{
+    cursor: pointer;
+}
+.row2 .viewPlansButton:hover p{
+    background: #fff;
+    color: #2C2640;
+}
+
+
+.row2 .viewPlansButton p{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    margin: 0;
+    padding:0;
+    color: #fff;
+    
+    /**/
+}
+.row2 .image{
+    height: 90.9699248120301%;
+    width: 34.5127819548872%;
+    position: absolute;
+    background-color: #000;
+    background: url("../Assets/Images/dave.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 40.0751879699248%;
+    margin-top: 7.5187969924812%;
+}
+.row3{
+    padding-left: 11.7293233082707%;
+    padding-right: 10.1503759398496%;
+    display: flex;
+    flex-direction: column;
+}
+.row3 .line{
+    background-color: #A29EA9;
+    height: 2px;
+    width: 10.5263157894737%;
+    margin-top: 21.203007518797%;
+}
+.row3 .weredifferent{
+    margin-top: 6.01503759398496%;
+    font-size: 4.5rem;
+    color: #000;
+}
+.row3 .cardContainer{
+    margin-top: 7.06766917293233%;
+    padding:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.row3 .cardContainer .card{
+    width: 100%;
+}
+.row3 .cardContainer .card .image{
+    width: 5.375rem;
+    height: 5.375rem;
+    border-radius: 50%;
+    background: #000;
+
+}
+.row3 .cardContainer .card .texttitle{
+    margin-top: 2.625rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.row4{
+    margin-left: 11.7293233082707%;
+    margin-right: 10.1503759398496%;
+    background-color: #2C2640;
+    margin-top: 11.4285714285714%;
+    padding: 6.01503759398496% ;
+    display: flex;
+    flex-direction: row;
+
+}
+.row4 h1{
+    color: #fff;
+    font-size: 3.5rem;
+    padding:0;
+    margin:0;
+    width: 60.2330827067669%;
+    
+   
+    
+}
+.row4 .howwework{
+    margin-left:20%;
+    margin-top: 5.14285714285714%;
+    margin-bottom: 3.14285714285714%;
+    border: 2px #fff solid;
+    text-align: center;
+    padding: 1.35338345864662%;
+}
+.row4 .howwework p{
+    color: #fff;
+    font-weight: 700;
+}
+.footer{
+    background: #FAFAFA;
+    margin-top: 10.5263157894737%;
+    padding-left: 11.7293233082707%;
+    padding-right: 10.1503759398496%;
+    padding-top: 6.01503759398496%;
+    padding-bottom: 6.01503759398496%;
+}
+.footer .logo{
+    margin-top: 1.875rem;
+    display: flex;
+    flex-direction: row;
+}
+.footer .logo p{
+    color: #2C2640;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+.footer .logo .socialContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80.1503759398496%;
+}
+.footer .logo .socialContainer .soc{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/Images/tgray.png");
+    margin-left: .8rem;
+}
+.footer .r2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer .r2 .column .coltitle{
+    margin-top: 3.53383458646617%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer .cc .line{
+    width: 100%;
+    height: 2px;
+    background-color: #eee;
+    margin-top: 2.25563909774436%;
+
+}
+.footer .r2 .column{
+    margin-top: 2.25563909774436%;
+
+}
+
+
+@media only screen and (min-width: 1000px ){
+    *{
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 860px ) and (max-width: 999px ){
+    *{
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 681px ) and (max-width: 859px ){
+    *{
+        font-size: 11px;
+    }
+  
+    .row1{
+    
+        margin-left: 1.7293233082707%;
+        margin-right: 1.1503759398496%;
+    
+    }
+    .row1 .navigationLinks{
+        margin-left: 15.4210526315789%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.875rem;
+    }
+    .row2{
+        padding-left:1.7293233082707%;
+    }
+    .row2 .image{
+        height: 80.9699248120301%;
+        width: 45.5127819548872%;
+        margin-left: 55.0751879699248%;
+    }
+}
+@media only screen and (min-width: 0px ) and (max-width: 680px ){
+  
+    .row1 .viewPlans{
+        margin-left: 50%;
+        width: 3rem;
+        padding:2%;
+    }
+    .row1 .viewPlans .hamburger{
+        display: flex;
+        width: 100%;
+    }
+   
+    *{
+        font-size: 8px;
+    }
+    .row1{
+    
+        margin-left: 1.7293233082707%;
+        margin-right: 1.1503759398496%;
+    
+    }
+    .row1 .navigationLinks{
+        margin-left: 7.4210526315789%;
+        display: none;
+        flex-direction: row;
+        margin-top: 1.875rem;
+    }
+    .row1 .viewPlans #planner{
+        display: none;
+    }
+    .row2{
+        margin:0;
+        padding:0;
+        text-align: center;
+        width: 100%;
+    }
+    .row2 .image{
+        position: relative;
+        height: 35.625rem;
+        top:0;
+        left:0;
+        width: 100%;
+        margin:0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .row2 .con{
+        text-align: center;
+        width: 100%;
+    }
+    .row2 .viewPlansButton{
+        align-self: center;
+        width: auto;
+    }
+    .row3 .cardContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .row3 .cardContainer .card{
+        text-align: center;
+        margin-top: 5.33834586466165%;
+    }
+    .row3 .cardContainer .card .image{
+        align-self: center;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .row4{
+        display: flex;
+        flex-direction: column;
+        padding:0;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .row4 h1{
+        width: 100%;
+    }
+    .row4 .howwework{
+        margin-left: auto;
+        margin-right: auto;
+
+        
+    }
+    .footer .logo{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .footer .logo .socialContainer{
+        margin:0;
+        align-self: center;
+    }
+    .footer .r2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+   
+}
+@media screen  and (max-width: 768px){
+    
+        #nav_link{
+            display: none; width: 100%;
+           
+            
+        }
+        .humbut{
+            display: block;
+          
+        }
+    }
