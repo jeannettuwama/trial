@@ -1,3 +1,5 @@
+@import url(https://fonts.google.com/specimen/DM+Serif+Display);
+
 *{
     margin: 0;
     padding: 0;
@@ -16,24 +18,19 @@
     flex-direction: row;
     padding: 0 0 1.875rem 0;
 }
-.row1 .logo{
-    margin-top: 1.875rem;
+.row1 .logo1{
+   margin-top: 20px;
 }
-.row1 .logo p{
-    color: #2C2640;
-    letter-spacing: .1rem;
-    text-transform: uppercase;
-    font-size: 1.75rem;
-    font-weight: 700;
-}
+
 .row1 .navigationLinks{
     margin-left: 38.4210526315789%;
     display: flex;
     flex-direction: row;
     margin-top: 1.875rem;
+    color:  hsl(273, 4%, 51%);
 }
 
-.row1 .viewPlans .hamburger{
+.row1 .hamburger{
     display: none;
     flex-direction: column;
 }
@@ -44,14 +41,26 @@
     margin-top: 2px;
 }
 
+.row1 .navigationLinks ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
-
-
-.row1 .navigationLinks p{
+.row1 .navigationLinks li{
     text-transform: uppercase;
     letter-spacing: .1rem;
+    
+  display: inline;
+    font-size: 15px;
+    padding: 0;
+    color: hsl(216, 30%, 68%);
+    }
+    .row1 .navigationLinks li a{
+        padding: 10px 10px;
+        text-decoration: none;
+    }
 
-}
 .row1 .navigationLinks p:nth-child(2){
     margin-left: 1rem;
 
@@ -64,14 +73,19 @@
 
     margin-top: 1.125rem;
     margin-left: 1.875rem;
-    border: .2rem #2C2640 solid;
+    border: .2rem  hsl(273, 4%, 51%) solid;
     text-align: center;
-    padding-left: 1.875rem;
-    padding-right: 1.875rem;
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
     padding-top: 0.7999rem;
     padding-bottom: 0.625rem;
-    
+    color:  hsl(273, 4%, 51%);
 }
+.row1 .viewPlans:hover{
+    background: hsl(256, 26%, 20%);
+    color: #fff;
+}
+
 .row1 .viewPlans p{
     text-transform: uppercase;
     font-weight: 700;
@@ -82,28 +96,33 @@
     /**/
 }
 .row2{
-    background-color: #2C2640;
+    background-color: hsl(256, 26%, 20%);
     padding-left: 11.7293233082707%;
     padding-right: 10.1503759398496%;
     display: flex;
     flex-direction: column;
     width: 100%;
-
+    
+    
+   
+    
 }
 .row2 .line{
-    background-color: #A29EA9;
+    background-color:  hsl(273, 4%, 51%);
     height: 2px;
     width: 10.5263157894737%;
     margin-top: 6.99248120300752%;
+    
 }
 .row2 h1{
     font-size: 4.5rem;
     color: #fff;
     margin-top: 5.03759398496241%;
+   
 }
 
 .row2 .con{
-    width: 37.593984962406%;
+    width: 29%;
     color: #A29EA9;
     margin-top: 1.8796992481203%;
 }
@@ -125,9 +144,19 @@
 .row1 .viewPlans{
     cursor: pointer;
 }
-.row2 .viewPlansButton:hover p{
-    background: #fff;
-    color: #2C2640;
+.row2 .viewPlansButton{
+    background: #2C2640 ;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    
+    color: #fff;
+}
+.row2 .viewPlansButton:hover {
+    background-color: #fff;
+   
+    color: #2C2640 ;
 }
 
 
@@ -146,20 +175,36 @@
     width: 34.5127819548872%;
     position: absolute;
     background-color: #000;
-    background: url("../Assets/Images/dave.JPG");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url("../Assets/Images/image-intro-desktop.jpg"), url("../Assets/Images/bg-pattern-intro-left-desktop.svg");
+   
+    padding: 15px;
+  
+    background-position:center top, right top, center bottom;
+	background-repeat:no-repeat, repeat-x, repeat-y;
     margin-left: 40.0751879699248%;
     margin-top: 7.5187969924812%;
+   
+   
+  }
+   
+
+.row2 .lines{
+    
+    width: 34.5127819548872%;
+    position: absolute;
+    top: 60px;
+    left: 80px;
 }
 .row3{
     padding-left: 11.7293233082707%;
     padding-right: 10.1503759398496%;
     display: flex;
     flex-direction: column;
+   
+    background-repeat: no-repeat;
 }
 .row3 .line{
-    background-color: #A29EA9;
+    background-color:  hsl(273, 4%, 51%);
     height: 2px;
     width: 10.5263157894737%;
     margin-top: 21.203007518797%;
@@ -180,26 +225,55 @@
     width: 100%;
 }
 .row3 .cardContainer .card .image{
-    width: 5.375rem;
+    width: 5.375rem;  
     height: 5.375rem;
     border-radius: 50%;
     background: #000;
 
 }
+.row3 .cardContainer .card:nth-child(1) .image{
+background-image: url("../Assets/Images/icon-snappy-process.svg"); 
+background-size: 5.375rem;
+}
+.row3 .cardContainer .card:nth-child(3) .image{
+    background-image: url("../Assets/Images/icon-people-first.svg"); 
+    background-size: 5.375rem;
+    }
+    .row3 .cardContainer .card:nth-child(2) .image{
+        background-image: url("../Assets/Images/icon-affordable-prices.svg"); 
+        background-size: 5.375rem;
+        }
+
+
 .row3 .cardContainer .card .texttitle{
     margin-top: 2.625rem;
     font-weight: 700;
     font-size: 1.8rem;
+    color: #2C2640;
 }
+.row3 .cardContainer .card .textcontainer{
+    width: 72.1%;
+    color:  hsl(273, 4%, 51%);
+    margin-top: 10px;
+}
+
 .row4{
     margin-left: 11.7293233082707%;
     margin-right: 10.1503759398496%;
     background-color: #2C2640;
     margin-top: 11.4285714285714%;
-    padding: 6.01503759398496% ;
+    padding: 5.01503759398496% ;
     display: flex;
     flex-direction: row;
-
+     
+    background-image: url("../Assets/Images/bg-pattern-how-we-work-desktop.svg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 400px 300px;
+   
+    background-position: right; 
+    background-repeat: no-repeat;
+   
 }
 .row4 h1{
     color: #fff;
@@ -207,8 +281,8 @@
     padding:0;
     margin:0;
     width: 60.2330827067669%;
-    
-   
+  
+
     
 }
 .row4 .howwework{
@@ -218,6 +292,7 @@
     border: 2px #fff solid;
     text-align: center;
     padding: 1.35338345864662%;
+   
 }
 .row4 .howwework p{
     color: #fff;
@@ -225,6 +300,8 @@
 }
 .footer{
     background: #FAFAFA;
+    background-image: url("../Assets/Images/bg-pattern-footer-desktop.svg"); 
+    background-repeat: no-repeat;
     margin-top: 10.5263157894737%;
     padding-left: 11.7293233082707%;
     padding-right: 10.1503759398496%;
@@ -247,23 +324,68 @@
     display: flex;
     flex-direction: row;
     margin-left: 80.1503759398496%;
-}
+}   
 .footer .logo .socialContainer .soc{
     background-size: cover;
     background-repeat: no-repeat;
     width: 25px;
     height: 25px;
-    background: url("../Assets/Images/tgray.png");
+   
     margin-left: .8rem;
+} 
+.footer .logo .socialContainer .soc1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 25px;
+   
+    margin-left: .8rem;
+} 
+.footer .logo .socialContainer .soc2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+   
+    margin-left: .8rem;
+} 
+.footer .logo .socialContainer .soc3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+   
+    margin-left: .8rem;
+} 
+
+.footer .logo .socialContainer:nth-child(1) .soc{
+    background-image: url("../Assets/Images/icon-facebook.svg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.footer .logo .socialContainer .soc1{
+    background-image: url("../Assets/Images/icon-twitter.svg"); 
+}
+.footer .logo .socialContainer .soc2{
+    background-image: url("../Assets/Images/icon-pinterest.svg"); 
+}
+.footer .logo .socialContainer .soc3{
+    background-image: url("../Assets/Images/icon-instagram.svg"); 
 }
 .footer .r2{
-    display: grid;
+    display: grid;        
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .footer .r2 .column .coltitle{
     margin-top: 3.53383458646617%;
     font-weight: 700;
+    margin-bottom: 15px;
     text-transform: uppercase;
+    color:  hsl(273, 4%, 51%);
+}
+
+.footer .r2 .column .colcontent{
+   color:  hsl(256, 26%, 20%);
 }
 .footer .cc .line{
     width: 100%;
@@ -276,11 +398,18 @@
     margin-top: 2.25563909774436%;
 
 }
-
+  .footer .r1 .logo{
+      margin-right: 30px;
+  }
 
 @media only screen and (min-width: 1000px ){
     *{
         font-size: 13px;
+    }
+}
+@media only screen and (min-width: 375px ) and (max-width: 1440px ){
+    *{
+        font-size: 16px;
     }
 }
 @media only screen and (min-width: 860px ) and (max-width: 999px ){
@@ -307,11 +436,82 @@
     }
     .row2{
         padding-left:1.7293233082707%;
+        width: 100%;
     }
     .row2 .image{
-        height: 80.9699248120301%;
-        width: 45.5127819548872%;
-        margin-left: 55.0751879699248%;
+       
+
+        height: 53.9699248120301%;
+        width: 62%;
+        margin-left: 30.0751879699248%;
+        margin-bottom: 20rem;
+       
+     
+    }
+    .row2 .humanizing{
+        margin-right: 5px;
+        font-size: 25px;
+    }
+    .row2 .con{
+
+        font-size: 15px;
+
+    }
+    .row2 .viewPlansButton{
+        font-weight: 700;
+        letter-spacing: 0.01rem;
+    }
+    .row3 .weredifferent{
+        margin-top: 5%;
+        font-size: 4.5rem;
+        color: #000;
+    }
+    .row3 .line{
+        
+        height: 2px;
+        width: 10.5263157894737%;
+        margin-top: 70%;
+        margin-left: 20px;
+    }
+    .row3 .cardContainer .card .textcontainer{
+        font-size: 15px;
+    }
+    .row4 .howwework{
+        margin-left:30%;
+     
+        margin-top: 3%;
+        margin-bottom: 19%;
+        border: 2px #fff solid;
+       
+        padding-right: 2.35338345864662%;
+        
+       
+    }
+    .row4{
+        background-image: url("../Assets/Images/bg-pattern-how-we-work-desktop.svg"); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+       background-size: 300px 300px;
+        background-position: right; 
+        background-repeat: no-repeat;
+    }
+
+    .row4 h1{
+        color: #fff;
+        font-size: 2.5rem;
+        padding:0;
+        margin:0;
+        width: 60.2330827067669%;
+      
+    
+        
+    }
+    .row4 .howwework p{
+  
+    letter-spacing: 1.5px;
+       
+
     }
 }
 @media only screen and (min-width: 0px ) and (max-width: 680px ){
@@ -320,10 +520,14 @@
         margin-left: 50%;
         width: 3rem;
         padding:2%;
+        display: none;
     }
-    .row1 .viewPlans .hamburger{
+   
+    .row1 .hamburger{
         display: flex;
         width: 100%;
+      margin-left: 21rem;
+      margin-top: 10px;
     }
    
     *{
@@ -349,6 +553,7 @@
         padding:0;
         text-align: center;
         width: 100%;
+        
     }
     .row2 .image{
         position: relative;
@@ -387,6 +592,12 @@
         padding:0;
         text-align: center;
         padding-bottom: 1rem;
+           
+    background-image: url("../Assets/Images/bg-pattern-how-we-work-desktop.svg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 10px;
+    
     }
     .row4 h1{
         width: 100%;
